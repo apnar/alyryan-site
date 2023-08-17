@@ -1,5 +1,5 @@
-title: "Osprey Delight Demo"
-baseURL: "https://example.com"
+title: "Aly Ryan"
+baseURL: "https://alyryan.com"
 languageCode: "en-US"
 theme: "github.com/kdevo/osprey-delight/v5"
 tags: ["personal", "homepage", "portfolio"]
@@ -18,11 +18,11 @@ module:
 
 ## Generic theme parameters:
 Params:
-  author: "kdevo"
-  description: "Osprey Delight: Example Site"
+  author: "Aly Ryan"
+  description: "Aly Ryan's Site"
 
   # logoBig appears at the top of the page. Use a path relative to the assets dir for auto-resizing. 
-  logoBig: "osprey-delight.png"
+  logoBig: "alyryan.jpg"
 
   # logoSmall is the logo that will be shown in the left corner of the nav bar.
   #   Use a path relative to the assets dir for auto-resizing.
@@ -47,7 +47,7 @@ Params:
   #tagline: "Welcome!"
   # mdTagline can be used instead to specify the tagline in Markdown for more customizability.
   #   Note that {cursor} is a placeholder and will be replaced by the actual cursor HTML when rendering.
-  mdTagline: "# Welcome!\n ## This is Osprey Delight{cursor}"
+  mdTagline: "# Hi!\n ## I'm Aly Ryan ## Producer{cursor}"
 
   # enforceSinglePage will enforce redirection to the baseURL for all sub-directories/-pages.
   #   Example: If you create about.md, Hugo will also create a '/about/index.html' which might not be what you want for a *single* page site. 
@@ -97,7 +97,7 @@ Params:
   # Image resizing can be configured here (see README for more info):
   Image:
     Logo:
-      resize: "600x"
+      resize: "900x"
 
     Gallery:
       resize: "600x"
@@ -134,18 +134,22 @@ Menu:
       url: "/#about"
       # weight controls the order of the menu items.
       weight: 1
-    - name: "Work"
+    - name: "Shops"
       identifier: gallery
-      url: "/#work"
+      url: "/#shops"
       weight: 2
-    - name: "Blog"
-      identifier: blog
-      url: "/#blog"
+    - name: "Education"
+      identifier: education
+      url: "/#education"
       weight: 3
+    - name: "Experience"
+      identifier: Experience
+      url: "/#experience"
+      weight: 4
     - name: "Contact"
       identifier: contact
       url: "/#contact"
-      weight: 4
+      weight: 5
     # - name: ""
     #   # pre makes it possible to use arbitrary HTML before the name, e.g. referencing icons here is possible:
     #   pre: '<svg class="icon"><use xlink:href="#icon-external"/></svg>&nbsp;'
